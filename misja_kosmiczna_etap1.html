@@ -1,0 +1,105 @@
+
+<style>
+  .brief-wrap { max-width: 640px; margin: 0 auto; padding: 1.5rem 0; font-family: var(--font-sans); }
+  .badge { display: inline-block; font-size: 11px; font-weight: 500; padding: 3px 10px; border-radius: 20px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .badge-red { background: #FCEBEB; color: #791F1F; }
+  .badge-blue { background: #E6F1FB; color: #0C447C; }
+  .badge-gray { background: #F1EFE8; color: #444441; }
+  .divider { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 1.5rem 0; }
+  .section-label { font-size: 11px; font-weight: 500; color: var(--color-text-tertiary); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.4rem; }
+  .mission-title { font-size: 22px; font-weight: 500; color: var(--color-text-primary); line-height: 1.3; margin: 0.3rem 0 0.6rem; }
+  .mission-sub { font-size: 15px; color: var(--color-text-secondary); margin: 0 0 1.2rem; line-height: 1.6; }
+  .story { font-size: 15px; color: var(--color-text-primary); line-height: 1.8; margin-bottom: 1rem; }
+  .story em { color: var(--color-text-secondary); font-style: italic; }
+  .callout { background: var(--color-background-secondary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin: 1.2rem 0; border-left: 3px solid #378ADD; border-top-left-radius: 0; border-bottom-left-radius: 0; }
+  .callout p { margin: 0; font-size: 14px; color: var(--color-text-primary); line-height: 1.7; }
+  .callout strong { font-weight: 500; }
+  .meta-row { display: flex; gap: 1.5rem; flex-wrap: wrap; margin: 1.2rem 0; }
+  .meta-item { display: flex; flex-direction: column; gap: 2px; }
+  .meta-val { font-size: 14px; font-weight: 500; color: var(--color-text-primary); }
+  .meta-lbl { font-size: 12px; color: var(--color-text-tertiary); }
+  .task-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-top: 1rem; }
+  .task-row { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .task-row:last-child { border-bottom: none; padding-bottom: 0; }
+  .task-num { width: 22px; height: 22px; border-radius: 50%; background: var(--color-background-info); color: var(--color-text-info); font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+  .task-text { font-size: 14px; color: var(--color-text-primary); line-height: 1.6; }
+  .task-text span { color: var(--color-text-secondary); font-size: 13px; }
+  .warning-box { border: 0.5px solid var(--color-border-warning); background: var(--color-background-warning); border-radius: var(--border-radius-md); padding: 0.75rem 1rem; margin-top: 1.2rem; font-size: 13px; color: var(--color-text-warning); line-height: 1.6; }
+  .footer-note { font-size: 12px; color: var(--color-text-tertiary); margin-top: 1.5rem; text-align: center; }
+</style>
+
+<div class="brief-wrap">
+  <div style="display:flex; gap:8px; align-items:center; margin-bottom:0.8rem; flex-wrap:wrap;">
+    <span class="badge badge-red">Ściśle tajne</span>
+    <span class="badge badge-blue">ESA / NASA Joint Mission</span>
+    <span class="badge badge-gray">Dokument operacyjny — Etap I</span>
+  </div>
+
+  <div class="section-label">Misja Kepler-7 / Briefing dla zespołu</div>
+  <h1 class="mission-title">Projekt NOMAD — Faza projektowania pojazdu terenowego</h1>
+  <p class="mission-sub">Rok 2041. Sonda bezzałogowa potwierdziła istnienie litej powierzchni na egzoplanecie Kepler-452b. Za 18 miesięcy startuje pierwsza załogowa misja.</p>
+
+  <hr class="divider">
+
+  <p class="story">
+    Centrum Operacyjne Misji, Houston. Godzina 03:14 czasu lokalnego.
+  </p>
+  <p class="story">
+    Światła w sali briefingowej migną dwukrotnie — sygnał, że transmisja satelitarna jest szyfrowana. Na ekranie pojawia się twarz dyrektora programu, Dr. Heleny Vasquez. Jej głos jest spokojny, ale w oczach widać ciężar decyzji, które podejmowała przez ostatnie 72 godziny.
+  </p>
+  <p class="story">
+    <em>„Mamy problem. Nie małą usterkę — prawdziwy problem."</em>
+  </p>
+  <p class="story">
+    Dwa tygodnie temu próbnik wylądował w strefie Theta-9 planety Kepler-452b. Dane powierzchniowe są wyjątkowo obiecujące — stabilna temperatura, śladowe ilości tlenu, twarda bazaltowa gleba. Ale podczas transmisji pojawił się sygnał którego nie było w symulacjach: lokalne pole magnetyczne tworzy anomalie zakłócające systemy nawigacyjne. GPS nie działa. Autonomiczne pojazdy korporacyjne — te za 240 milionów dolarów, testowane przez 6 lat — są bezużyteczne.
+  </p>
+  <p class="story">
+    Misja ma 18 miesięcy. Nie można jej przesunąć — okno startowe otwiera się raz na 3 lata.
+  </p>
+
+  <div class="callout">
+    <p><strong>Wasza rola:</strong> Jesteście niezależnym zespołem badawczo-rozwojowym, jedyną grupą w programie która nie jest związana kontraktem z dostawcami korporacyjnymi. Macie dostęp do komponentów z magazynu awaryjnego i pełną swobodę projektowania. To wasza szansa — i wasza odpowiedzialność.</p>
+  </div>
+
+  <p class="story">
+    Dr. Vasquez kontynuuje: <em>„Potrzebujemy pojazdu terenowego który może poruszać się manualnie, nie wymaga sygnału GPS, jest odporny na wibracje i może być złożony przez każdego członka załogi — nawet w rękawicach skafandra. Macie komponenty. Macie czas. Zbudujcie prototyp."</em>
+  </p>
+
+  <hr class="divider">
+
+  <div class="section-label">Parametry misji</div>
+  <div class="meta-row">
+    <div class="meta-item"><span class="meta-val">Kepler-452b</span><span class="meta-lbl">Cel misji</span></div>
+    <div class="meta-item"><span class="meta-val">18 miesięcy</span><span class="meta-lbl">Czas do startu</span></div>
+    <div class="meta-item"><span class="meta-val">2 zespoły R&D</span><span class="meta-lbl">Równolegle</span></div>
+    <div class="meta-item"><span class="meta-val">Etap I z III</span><span class="meta-lbl">Faza projektu</span></div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="section-label">Zadanie — Etap I: Projektowanie i budowa prototypu</div>
+  <div class="task-card">
+    <div class="task-row">
+      <div class="task-num">1</div>
+      <div class="task-text">Zapoznajcie się z dostępnymi komponentami magazynowymi. <span>Każdy zespół otrzymuje identyczny zestaw. Czas: 5 minut.</span></div>
+    </div>
+    <div class="task-row">
+      <div class="task-num">2</div>
+      <div class="task-text">Zaprojektujcie i zbudujcie prototyp pojazdu terenowego dla misji na Kepler-452b. <span>Pojazd musi być w pełni ukończony i stać stabilnie. Czas: 20 minut.</span></div>
+    </div>
+    <div class="task-row">
+      <div class="task-num">3</div>
+      <div class="task-text">Udokumentujcie swój projekt — wykonajcie fotografię prototypu z każdej strony. <span>Zdjęcia trafią do archiwum misji.</span></div>
+    </div>
+    <div class="task-row">
+      <div class="task-num">4</div>
+      <div class="task-text">Oczekujcie na dalsze instrukcje od Centrum Operacyjnego. <span>Etap II zostanie ogłoszony po zakończeniu fazy budowy przez oba zespoły.</span></div>
+    </div>
+  </div>
+
+  <div class="warning-box">
+    Uwaga operacyjna: Nie informujcie drugiego zespołu o szczegółach swojego projektu ani nie pokazujcie gotowego pojazdu przed sygnałem z Centrum. Każdy zespół pracuje w izolacji — tak jak dwa niezależne laboratoria na różnych kontynentach.
+  </div>
+
+  <p class="footer-note">Dokument operacyjny NOMAD-01 / Centrum Misji Houston / Dystrybucja ograniczona</p>
+</div>

@@ -1,0 +1,129 @@
+
+<style>
+  .brief-wrap { max-width: 640px; margin: 0 auto; padding: 1.5rem 0; font-family: var(--font-sans); }
+  .badge { display: inline-block; font-size: 11px; font-weight: 500; padding: 3px 10px; border-radius: 20px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .badge-red { background: #FCEBEB; color: #791F1F; }
+  .badge-amber { background: #FAEEDA; color: #633806; }
+  .badge-gray { background: #F1EFE8; color: #444441; }
+  .divider { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 1.5rem 0; }
+  .section-label { font-size: 11px; font-weight: 500; color: var(--color-text-tertiary); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.4rem; }
+  .mission-title { font-size: 22px; font-weight: 500; color: var(--color-text-primary); line-height: 1.3; margin: 0.3rem 0 0.6rem; }
+  .mission-sub { font-size: 15px; color: var(--color-text-secondary); margin: 0 0 1.2rem; line-height: 1.6; }
+  .story { font-size: 15px; color: var(--color-text-primary); line-height: 1.8; margin-bottom: 1rem; }
+  .story em { color: var(--color-text-secondary); font-style: italic; }
+  .callout-red { background: var(--color-background-danger); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin: 1.2rem 0; border-left: 3px solid #E24B4A; border-top-left-radius: 0; border-bottom-left-radius: 0; }
+  .callout-red p { margin: 0; font-size: 14px; color: var(--color-text-danger); line-height: 1.7; }
+  .callout-blue { background: var(--color-background-secondary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin: 1.2rem 0; border-left: 3px solid #378ADD; border-top-left-radius: 0; border-bottom-left-radius: 0; }
+  .callout-blue p { margin: 0; font-size: 14px; color: var(--color-text-primary); line-height: 1.7; }
+  .meta-row { display: flex; gap: 1.5rem; flex-wrap: wrap; margin: 1.2rem 0; }
+  .meta-item { display: flex; flex-direction: column; gap: 2px; }
+  .meta-val { font-size: 14px; font-weight: 500; color: var(--color-text-primary); }
+  .meta-lbl { font-size: 12px; color: var(--color-text-tertiary); }
+  .task-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-top: 1rem; }
+  .task-row { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .task-row:last-child { border-bottom: none; padding-bottom: 0; }
+  .task-num { width: 22px; height: 22px; border-radius: 50%; background: var(--color-background-warning); color: var(--color-text-warning); font-size: 12px; font-weight: 500; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+  .task-text { font-size: 14px; color: var(--color-text-primary); line-height: 1.6; }
+  .task-text span { color: var(--color-text-secondary); font-size: 13px; }
+  .constraint-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 1rem 0; }
+  .constraint-item { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 0.7rem 0.9rem; }
+  .constraint-title { font-size: 12px; font-weight: 500; color: var(--color-text-secondary); margin-bottom: 3px; }
+  .constraint-val { font-size: 13px; color: var(--color-text-primary); line-height: 1.5; }
+  .warning-box { border: 0.5px solid var(--color-border-warning); background: var(--color-background-warning); border-radius: var(--border-radius-md); padding: 0.75rem 1rem; margin-top: 1.2rem; font-size: 13px; color: var(--color-text-warning); line-height: 1.6; }
+  .footer-note { font-size: 12px; color: var(--color-text-tertiary); margin-top: 1.5rem; text-align: center; }
+</style>
+
+<div class="brief-wrap">
+  <div style="display:flex; gap:8px; align-items:center; margin-bottom:0.8rem; flex-wrap:wrap;">
+    <span class="badge badge-red">Pilne — Priorytet Alpha</span>
+    <span class="badge badge-amber">Zmiana operacyjna</span>
+    <span class="badge badge-gray">Dokument operacyjny — Etap II</span>
+  </div>
+
+  <div class="section-label">Misja Kepler-7 / Aktualizacja dla zespołu R&D</div>
+  <h1 class="mission-title">Projekt NOMAD — Kryzys komunikacyjny. Przekazanie dokumentacji technicznej.</h1>
+  <p class="mission-sub">Nieplanowana transmisja z Centrum Operacyjnego. Wszystkie zespoły proszę o natychmiastowe zatrzymanie prac i wysłuchanie.</p>
+
+  <hr class="divider">
+
+  <p class="story">
+    Godzina 04:52. Centrum Operacyjne, Houston.
+  </p>
+  <p class="story">
+    Sygnał alarmowy przerywa ciszę w laboratorium. Na ekranie pojawia się Dr. Vasquez — tym razem bez kurtki, z kubkiem kawy w dłoni. Coś się zmieniło.
+  </p>
+  <p class="story">
+    <em>„Mamy nową sytuację. Przed chwilą dostaliśmy potwierdzenie z ESA — burzę magnetyczną na Kepler-452b. Siedem razy silniejszą niż prognozowały modele. To zmienia wszystko."</em>
+  </p>
+  <p class="story">
+    Robi krótką pauzę. Patrzy w kamery obu laboratoriów jednocześnie.
+  </p>
+  <p class="story">
+    <em>„Wasze dwa laboratoria za 20 minut tracą łączność na 6 tygodni — takie są protokoły bezpieczeństwa przy burzach tej klasy. Ale misja nie może czekać. Podjęliśmy decyzję: każdy zespół przejmuje projekt drugiego i kończy go samodzielnie. Wasze laboratorium dostanie komponenty i dokumentację od drugiego zespołu. I musi zbudować ich pojazd — nie swój."</em>
+  </p>
+
+  <div class="callout-red">
+    <p><strong>Sytuacja kryzysowa:</strong> Za chwilę wymienicie się wszystkimi komponentami i całą dokumentacją z drugim zespołem. Jedyne co otrzymacie to to, co oni zdążyli zapisać. Żadnych pytań, żadnych wyjaśnień — łączność zostaje odcięta. Budujecie ich pojazd tylko na podstawie ich instrukcji.</p>
+  </div>
+
+  <p class="story">
+    W sali robi się cicho. Ktoś sięga po swoje notatki i patrzy na nie zupełnie nowym wzrokiem.
+  </p>
+  <p class="story">
+    Dr. Vasquez dodaje spokojnie: <em>„Macie 5 minut na uzupełnienie dokumentacji zanim ją przekażecie. Użyjcie ich mądrze."</em>
+  </p>
+
+  <hr class="divider">
+
+  <div class="section-label">Wymagania wobec dokumentacji przekazywanej drugiemu zespołowi</div>
+  <div class="callout-blue">
+    <p>Dokumentacja musi umożliwić osobie która nigdy nie widziała waszego pojazdu jego <strong>wierne odtworzenie</strong> — krok po kroku, bez żadnych dodatkowych pytań. To jest wasz jedyny kanał komunikacji z drugim laboratorium.</p>
+  </div>
+
+  <div class="constraint-grid">
+    <div class="constraint-item">
+      <div class="constraint-title">Format</div>
+      <div class="constraint-val">Dowolny — tekst, szkic, schemat, lista kroków</div>
+    </div>
+    <div class="constraint-item">
+      <div class="constraint-title">Czas na uzupełnienie</div>
+      <div class="constraint-val">5 minut — odliczanie zaczyna się teraz</div>
+    </div>
+    <div class="constraint-item">
+      <div class="constraint-title">Co przekazujecie</div>
+      <div class="constraint-val">Całą dokumentację + wszystkie komponenty</div>
+    </div>
+    <div class="constraint-item">
+      <div class="constraint-title">Co zostawiacie</div>
+      <div class="constraint-val">Nic. Wasze laboratorium jest puste.</div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="section-label">Zadanie — Etap II: Budowa pojazdu według cudzej dokumentacji</div>
+  <div class="task-card">
+    <div class="task-row">
+      <div class="task-num">1</div>
+      <div class="task-text">Uzupełnijcie dokumentację w czasie który pozostał. <span>To ostatnia szansa na poprawki — za chwilę traci ona waszą własność.</span></div>
+    </div>
+    <div class="task-row">
+      <div class="task-num">2</div>
+      <div class="task-text">Przekażcie wszystkie komponenty i całą dokumentację drugiemu zespołowi. <span>Od tej chwili nie macie prawa komentować ani pomagać.</span></div>
+    </div>
+    <div class="task-row">
+      <div class="task-num">3</div>
+      <div class="task-text">Odbudujcie pojazd drugiego zespołu wyłącznie na podstawie otrzymanej dokumentacji. <span>Dokładnie tak jak załoga na Kepler-452b będzie budować pojazd według waszych instrukcji — w skafandrze, bez możliwości zadania pytania. Czas: 20 minut.</span></div>
+    </div>
+    <div class="task-row">
+      <div class="task-num">4</div>
+      <div class="task-text">Gdy skończycie — nie rozbierajcie pojazdu. Sfotografujcie wynik i oczekujcie na Etap III. <span>Centrum Operacyjne dokona oceny porównawczej obu pojazdów.</span></div>
+    </div>
+  </div>
+
+  <div class="warning-box">
+    Zasada izolacji obowiązuje do sygnału z Centrum: żadnego kontaktu werbalnego, gestów ani podpowiedzi między zespołami podczas budowy. Dokumentacja mówi sama za siebie — albo nie mówi nic.
+  </div>
+
+  <p class="footer-note">Dokument operacyjny NOMAD-02 / Centrum Misji Houston / Zmiana priorytetowa 04:52</p>
+</div>
